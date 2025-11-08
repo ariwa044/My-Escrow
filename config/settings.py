@@ -30,8 +30,7 @@ SECRET_KEY = '5w5!86hnsccpm3c1zg2agjty25@^5rxjomj2#n-@gk&dyj8zi4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['escrow-swap.onrender.com', 'escrow-trade.onrender.com','https://escrow-swap.onrender.com', 'escrowtrade.site', 'www.escrowtrade.site', 'www.escrow-trade.onrender.com']
-
+ALLOWED_HOSTS = ['*', 'https://escrowtradeswap.onrender.com', 'escrowtradeswap.onrender.com']
 CSRF_TRUSTED_ORIGINS = [BASE_URL]
 
 AUTH_USER_MODEL = 'account.User'
